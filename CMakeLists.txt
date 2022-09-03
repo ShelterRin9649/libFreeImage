@@ -29,7 +29,7 @@ list(APPEND FreeImage_Defs
     "-DFREEIMAGE_BUILD"
 )
 
-option(FREEIMAGE_SHARED "Build shared FreeImageLite" ON)
+option(FREEIMAGE_SHARED "Build shared FreeImageLite" OFF)
 option(FREEIMAGE_STATIC "Build static FreeImageLite" ON)
 
 option(FREEIMAGE_USE_SYSTEM_LIBPNG "Use external libPNG and ZLib" OFF)
